@@ -1,2 +1,1 @@
-# ITclusterA.github.io
-team work
+# oksankaslukrnet.github.io
