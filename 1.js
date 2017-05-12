@@ -325,7 +325,7 @@ for(var kk=1;kk<=6;kk++){
   }
   document.write('</tr>');
 }
-document.write('<tr><td colspan="7" align="center" style="cursor:pointer;font:13px Arial;color:white; background:" onclick="_Calendar.today()">Сьогодні: '+_Calendar.addnull(_Calendar.sccd,_Calendar.sccm+1,_Calendar.sccy)+'</td></tr>');
+document.write('<tr><td colspan="7" align="center" style="cursor:pointer;font:13px Arial;color:white; background:#3a7004" onclick="_Calendar.today()">Сьогодні: '+_Calendar.addnull(_Calendar.sccd,_Calendar.sccm+1,_Calendar.sccy)+'</td></tr>');
 document.write('</table>');
 
 document.all?document.attachEvent('onclick',_Calendar.checkClick):document.addEventListener('click',_Calendar.checkClick,false);
